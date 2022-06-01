@@ -1,0 +1,104 @@
+
+.section{
+    height: 1000px; 
+    width: 1300px;
+}
+
+.box1{
+    height: 300px; 
+    width: 600px;
+    position:relative;   
+    margin-left:  5%;
+    top: -50px;
+}
+.box2{
+    height: 300px; 
+    width: 600px;
+    position:relative;   
+    margin-left:  5%;
+    top: -60px;
+}
+.box3{
+    width: 600px; 
+    height: 400px;
+    position:relative;   
+    margin-left: 53%;
+    top: -120px;
+}
+
+.align-text{
+    width: 900px; 
+    height: 0px;   
+    margin: 0 auto 0 auto;
+    position:relative;   
+}
+.text {
+   font-family: 'Arial Narrow';
+   text-align: justify;
+   line-height: 25px ;
+   font-size: 15px;
+   color:rgb(10, 10, 10);
+   top: 1200px;
+ 
+}
+.titulo{
+    color:rgb(0, 0, 0);
+    font-size:20px;
+}
+.img {
+    width: 500px; 
+    height: 400px;
+    margin-left: 65%;
+    margin-top: -23%;
+    border-radius: 30PX;
+}
+.img1{
+    width: 600px;
+    height:300px; 
+    border-radius: 30PX;
+}
+.img2{
+    width: 600px;
+    height:300px; 
+    border-radius: 30PX;
+}
+.img3{
+    width: 600px;
+    height:300px; 
+    border-radius: 30PX;
+}
+
+.img4{
+    width: 600px;
+    height:300px; 
+    border-radius: 30PX;
+}
+.carrossel{
+    position:relative;
+    top: -500PX;
+    Width:600px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 40px;
+   
+}
+
+.carrossel .fotos{
+    width: 500%;
+    animation: animacao 5s infinite;
+}
+.carrossel .fotos img{
+    width: 19.9%;
+
+}
+@keyframes animacao {
+    0% {margin-left: 0 }
+    20% {margin-left: 0% }
+    25% {margin-left: -100% }
+    45% {margin-left: -100% }
+    50% {margin-left: -200% }
+    70% {margin-left: -200% }
+    75% {margin-left: -300% }
+    95% {margin-left: -300% }
+    100% {margin-left: -400% }
+}
